@@ -14,7 +14,7 @@ class Day
 	include DayMethods
 	
 	def initialize
-		@lines = File.read("input.txt").split
+		@lines = File.readlines("input.txt", chomp:true)
 	end
   
 	def run(part)
