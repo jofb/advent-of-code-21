@@ -1,6 +1,4 @@
-require_relative "day_one"
-require_relative "day_two"
-require_relative "day_three"
+require_relative "day_four"
 
-day = DayThree.new
-p day.run 2
+day = DayFour.new
+p day.run 1
